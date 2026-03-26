@@ -1,0 +1,18 @@
+# Core app
+streamlit
+pandas
+pydantic
+python-dotenv
+
+# LLM and orchestration
+langgraph
+langchain-core
+langchain-openai
+langchain-community
+tavily-python
+
+# Optional image generation used by the backend
+google-genai
+
+# Notebook support
+ipykernel

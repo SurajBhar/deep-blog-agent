@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deep-blog-agent"
+version = "0.1.0"
+description = "Agentic Streamlit app for generating detailed technical blogs with LangGraph, OpenAI, Tavily research, and optional Gemini images."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "streamlit",
+    "pandas",
+    "pydantic",
+    "python-dotenv",
+    "langgraph",
+    "langchain-core",
+    "langchain-openai",
+    "langchain-community",
+    "tavily-python",
+    "google-genai",
+    "ipykernel",
+]
+
+[project.scripts]
+deep-blog-agent = "deep_blog_agent.cli:main"
+deep-blog-agent-ui = "deep_blog_agent.frontend:run"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
