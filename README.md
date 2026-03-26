@@ -4,6 +4,8 @@ Technical Content Writer Agent or Deep Blog Agent is a Streamlit + LangGraph app
 
 ![Deep Blog Agent home page](img/0_home_page.png)
 
+Test this app on streamlit by adding your own API Credentials through UI in Settings page: [Click Here](https://surajbhartcwagent.streamlit.app/)
+
 ## Overview
 
 This project is designed for technical writing workflows where you want a working draft quickly, but still need research support, citations, and a reviewable output structure.
